@@ -6,7 +6,7 @@ function getStrategy() {
     .then((data) => {
       let random =
         data.Strategies[Math.floor(Math.random() * data.Strategies.length)];
-      quotes.innerText = `"${random}."`;
+      quotes.innerText = `"${random}"`;
       console.log(random);
     });
 }
