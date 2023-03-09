@@ -3,7 +3,8 @@
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  gap: 20px;
+
+  background-color: whitesmoke;
 }
 
 .container {
@@ -11,9 +12,28 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 42px;
 }
 
+.quotes {
+  padding: 127px 136px;
+
+  border: 1px solid black;
+  border-radius: 8px;
+
+  background-color: #fff;
+}
 .button {
+  border-radius: 2px;
+}
+
+.button:hover {
+  background-color: black;
+  color: #fff;
 }
 .button_type_draw {
+  width: 98px;
+  height: 32px;
+  background-color: #fff;
+  border: 1px solid black;
 }
