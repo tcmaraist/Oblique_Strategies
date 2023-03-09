@@ -16,7 +16,12 @@
 }
 
 .quotes {
-  padding: 127px 136px;
+  width: 468px;
+  height: 276px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   border: 1px solid black;
   border-radius: 8px;
